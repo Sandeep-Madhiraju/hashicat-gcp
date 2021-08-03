@@ -11,10 +11,13 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
+  <pre>
   
-  Meowww Suhail and Michel!  Welcome to ${PREFIX}'s app. 
+  Meowww Suhail and Michel!  Welcome to ${PREFIX}'s app. <br
   
   Hope you enjoyed the Meowwwwwwwwwww demo ;) !!!!
+  
+  </pre>
   
   <!-- END -->
 
