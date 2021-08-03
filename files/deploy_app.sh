@@ -13,9 +13,9 @@ cat << EOM > /var/www/html/index.html
   <center><h2>Meow World!</h2></center>
   <pre>
   
-  Meowww Suhail and Michel!  Welcome to ${PREFIX}'s app. <br
+    Meowww Suhail and Michel!  Welcome to ${PREFIX}'s app.
   
-  Hope you enjoyed the Meowwwwwwwwwww demo ;) !!!!
+      Hope you enjoyed the Meowwwwwwwwwww demo ;) !!!!
   
   </pre>
   
