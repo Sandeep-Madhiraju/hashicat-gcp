@@ -27,7 +27,7 @@ variable "zone" {
 
 variable "subnet_prefix" {
   description = "The address prefix to use for the subnet."
-  default     = "10.0.10.0/24"
+  default     = "10.128.0.0/20"
 }
 
 variable "machine_type" {
