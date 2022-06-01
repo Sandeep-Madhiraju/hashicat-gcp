@@ -10,6 +10,7 @@ terraform {
 provider "google" {
   project = var.project
   region  = var.region
+  zone="us-central1-a"
 }
 
 resource "google_compute_instance" "vm_instance"{
