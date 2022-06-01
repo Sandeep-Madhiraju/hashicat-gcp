@@ -55,7 +55,7 @@ resource "google_compute_instance" "hashicat" {
   }
 
   network_interface {
-    subnetwork = google_compute_subnetwork.hashicat.self_link
+    network="default"
     access_config {
     }
   }
