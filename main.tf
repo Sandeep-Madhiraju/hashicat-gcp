@@ -50,7 +50,7 @@ resource "google_compute_instance" "hashicat" {
 
   boot_disk {
     initialize_params {
-      image = "ubuntu-os-cloud/ubuntu-1804-lts"
+      image = "ubuntu-os-cloud/ubuntu-2304-lts"
     }
   }
 
